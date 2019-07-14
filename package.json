@@ -1,0 +1,45 @@
+{
+  "name": "v_video",
+  "version": "0.0.1",
+  "description": "a rtmp player with video.js and vue.js",
+  "main": "./src/component/rtmp.vue",
+  "scripts": {
+    "test": "webpack-dev-server --open --hot ",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwejdl2378/v_video.git"
+  },
+  "keywords": [
+    "rtmp"
+  ],
+  "author": "jidonglei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qwejdl2378/v_video/issues"
+  },
+  "homepage": "https://github.com/qwejdl2378/v_video#readme",
+  "dependencies": {
+    "video.js": "^6.2.5",
+    "videojs-contrib-hls": "^5.9.0",
+    "videojs-flash": "^2.0.1",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "easy-time-parser": "^0.0.1",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
